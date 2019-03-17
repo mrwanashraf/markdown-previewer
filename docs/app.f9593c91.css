@@ -1,0 +1,72 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #263238;
+  color: #CDDC39;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover, a:active, a:visited, a:link {
+  text-decoration: none;
+  color: #0091EA;
+}
+/*text area*/
+header {
+  background-color: #455A64;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  padding-top: 0.5vmax;
+  margin-bottom: 2vmax;
+}
+header #github {
+  color: white;
+}
+/*text area*/
+#editor_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50vmax;
+  margin-bottom: 2vmax;
+}
+#editor_section textarea {
+  width: 80vmax;
+  height: 20vmax;
+  resize: none;
+  background-color: #37474F;
+  color: white;
+  padding: 2vmax;
+}
+/*text area*/
+#preview_parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 5vmax;
+  margin-bottom: 2vmax;
+}
+#preview_parent #preview {
+  width: 60vmax;
+  padding: 5vmax;
+  background-color: #ECEFF1;
+  color: #37474F;
+  text-align: left;
+  padding-left: 7vmax;
+}
+
+/*# sourceMappingURL=app.f9593c91.css.map */

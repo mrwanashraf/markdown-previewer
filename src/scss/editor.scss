@@ -1,0 +1,19 @@
+@import './sizes.scss';
+@import './colors.scss';
+
+#editor_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50vmax;
+    textarea {
+        width: $text_area_width;
+        height: $text_area_height;
+        resize: none;
+        background-color: #37474F;
+        color: white;
+        padding: 2vmax;
+    }
+    margin-bottom: $margin_bottom_size;
+}

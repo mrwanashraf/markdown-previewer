@@ -1,0 +1,21 @@
+@import './sizes.scss';
+
+#preview_parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5vmax;
+
+    #preview {
+        width: 60vmax;
+        padding: 5vmax;
+
+        background-color: #ECEFF1;
+        color: #37474F;
+        text-align: left;
+        padding-left: 7vmax;
+    }
+    margin-bottom: $margin_bottom_size;
+}
+

@@ -1,0 +1,30 @@
+{
+  "name": "markdown-previewer",
+  "version": "0.1.0",
+  "description": "markdown previewer project for freecodecamp front end libraries projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel -p 8080 index.html",
+    "build": "parcel -p 8080 build index.html --out-dir docs --public-url ./"
+  },
+  "keywords": [
+    "markdown",
+    "previewer"
+  ],
+  "author": "mrwan ashraf <https://mrwanashraf.github.io/>",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "marked": "^0.6.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "parcel-bundler": "^1.12.2",
+    "sass": "^1.17.3"
+  }
+}

@@ -1,0 +1,23 @@
+@import './colors.scss';
+@import './input.scss';
+
+
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+    color: $main-color;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover, a:active, a:visited, a:link {
+    text-decoration: none;
+    color: $link_color;
+}
